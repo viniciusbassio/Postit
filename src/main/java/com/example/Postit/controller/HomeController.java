@@ -2,10 +2,9 @@ package com.example.Postit.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.Postit.Tags;
+//import com.example.Postit.Tags;
 
 @Controller
 public class HomeController {
@@ -19,7 +18,7 @@ public class HomeController {
     @GetMapping("/tags")
     public ModelAndView RotaTags() {
         ModelAndView mv = new ModelAndView("tags");
-        Tags t = new Tags();
+       // Tags t = new Tags();
         // t.tag = tags;
         // t.id_tag = id_tag;
         return mv;
