@@ -16,10 +16,10 @@
     <div class="menu-container">
         <h1>Menu Principal</h1>
         <div class="menu">
-            <div class="menu-item" onclick="goToPage('post-its.html')">
+            <div class="menu-item" onclick="goToPage('/informacoes')">
                 <i class="fas fa-sticky-note"></i> Post-its Virtuais
             </div>
-            <div class="menu-item" onclick="goToPage('notas.html')">
+            <div class="menu-item" onclick="goToPage('Informacoes.html')">
                 <i class="fas fa-pencil-alt"></i> Notas
             </div>
             <div class="menu-item" onclick="goToPage('configuracoes.html')">
@@ -41,8 +41,9 @@
     <header>
         <nav class="navbar">
             <ul class="nav-list">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Post-its</a></li>
+                <!-- Não precisa de ponto html esta seguindo as rotas do controler -->
+                <li><a href="buscar">Início</a></li>
+                <li><a href="informacoes.html">Post-its</a></li>
                 <li><a href="#">Notas</a></li>
                 <li><a href="#">Configurações</a></li>
                 <li><a href="#">Sobre</a></li>
